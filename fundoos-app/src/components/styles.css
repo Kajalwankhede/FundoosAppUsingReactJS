@@ -1,0 +1,53 @@
+/* Full screen center for login/register */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+
+  /* Flexbox centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login/Register container */
+.container {
+  width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields spacing */
+.form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+/* Buttons full width */
+.btn {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Optional login/register link */
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
